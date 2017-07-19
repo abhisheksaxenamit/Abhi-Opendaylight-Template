@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>monitoring</title>
+  </head>
+  <body>
+    <h1>monitoring</h1>
+    
+    <h2>Base Information</h2>
+    <table>
+        <tr>
+            <td><strong>prefix</strong></td>
+            <td>monitoring</td>
+        </tr>
+        <tr>
+            <td><strong>namespace</strong></td>
+            <td>urn:eu:virtuwind:monitoring</td>
+        </tr>
+        <tr>
+            <td><strong>revision</strong></td>
+            <td>2015-07-22</td>
+        </tr>
+        <tr>
+            <td><strong>description</strong></td>
+            <td>Monitoring Manager configuration</td>
+        </tr>
+        <tr>
+            <td><strong>yang-version</strong></td>
+            <td>1</td>
+        </tr>
+        <tr>
+    <td><strong>imports</strong></td><td>        ext:yang-ext 2013-07-09;
+            yang:ietf-yang-types 2010-09-24;
+            inv:opendaylight-inventory 2013-08-19;
+            inet:ietf-inet-types 2010-09-24;
+    </td>    </tr>
+    </table>
+    
+    <h3>Notifications Summary</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>
+            <a href="#topologyChanged"><strong>topologyChanged</strong></a>
+            </td>
+            <td>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+    
+    
+    
+    <h2>Notifications</h2>
+    
+    <h3 id="topologyChanged">topologyChanged
+    </h3>
+        <ul>
+        <strong><li>
+            leaf: topologyChange
+        </li>
+        </strong>
+        <ul>
+        <li>
+            min elements: 0
+        </li>
+        <li>
+            max elements: 2147483647
+        </li>
+        <li>
+            type: <a href="#topologyChanged/topologyChange/enumeration">enumeration</a>
+        </li>
+        </ul>
+        </ul>
+        <ul>
+        <strong><li>
+            leaf: linkId
+        </li>
+        </strong>
+        <ul>
+        <li>
+            min elements: 0
+        </li>
+        <li>
+            max elements: 2147483647
+        </li>
+        <li>
+            type: (urn:ietf:params:xml:ns:yang:1)string
+        </li>
+        </ul>
+        </ul>
+    
+    
+    
+    
+    
+  </body>
+</html>
