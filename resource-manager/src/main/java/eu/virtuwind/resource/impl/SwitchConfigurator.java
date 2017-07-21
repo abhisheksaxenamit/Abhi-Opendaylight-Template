@@ -168,7 +168,7 @@ public class SwitchConfigurator {
 	
         //Actions
         //currently changing tos and sending to output connector
-    //Abhishek .setQueueId((long)1))->3
+    	//Abhishek .setQueueId((long)1))->3
         Action queueAction = actionBuilder
                 .setOrder(0).setAction(new SetQueueActionCaseBuilder()
                     .setSetQueueAction(new SetQueueActionBuilder()
@@ -199,7 +199,7 @@ public class SwitchConfigurator {
 	instructions.add(applyActionsInstruction);
 
         //TODO: WRITE YOUR CODE HERE TO SET THE METER
-	//Create Meter used to add meter to Flow
+	//Create Meter used to add meter to Flow by Abhishek
          MeterBuilder mt = new MeterBuilder();
          mt.setMeterId(new MeterId(new Long(1)));
 
